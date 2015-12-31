@@ -10,7 +10,7 @@ headerline = reader.next()
 for row in reader:
      count = count+1
      print "******************************HELLOO:" + str(count)
-     if count>10:
+     if count>2:
           break
      URL = row[0]
      html = scraperwiki.scrape(URL)
