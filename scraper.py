@@ -9,8 +9,8 @@ reader = csv.reader(data.splitlines())
 headerline = reader.next()
 for row in reader:
      count = count+1
-     print "******************************HELLOO:" + str(count)
-     if count>2:
+     print "********HELLOO:" + str(count)
+     if count>200:
           break
      URL = row[0]
      html = scraperwiki.scrape(URL)
